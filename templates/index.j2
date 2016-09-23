@@ -1,0 +1,30 @@
+<h1>Your vote matters</h1>
+
+<p>Some people think this election is a choice between the lesser of two
+evils. These people disagree.
+
+<h2>I'm voting for Hillary because</h2>
+
+{% block reason %}
+{% endblock %}
+
+<table border="1">
+  {% for reason in reasons %}
+  {% if loop.index % 2 == 0 %} 
+  {% if loop.index != 0 %} </tr> {% endif %}
+  <tr> 
+  {% endif %}
+    <td>
+      {# <h3>{{ reason.title }}</h3> #}
+      <h3>
+        <a href="/{{reason.tag}}">
+          {{ reason.tagline }}
+        </a>
+      </h3>
+      <a href="#">Like</a>
+      <a href="#">Tweet</a>
+      <a href="#">Share</a>
+    </td>
+  {% endfor %}
+</table>
+
