@@ -1,7 +1,33 @@
 {% extends 'index.j2' %}
 {% block reason %}
 
+<h2>I'm voting for Hillary because<h2>
 <h3>{{ reason.tagline }}</h3>
 
+{% if reason.video %}
+<p>
+{{ reason.video }}
+</p>
+{% if community_videos %}
+<h3>Community Videos</h3>
+<table border="1">
+  <tr>
+    <td>
+      uploaded video 1
+    </td>
+    <td>
+      uploaded video 2
+    </td>
+    <td>
+      <a href="#">Upload Your Video</a>
+    </td>
+  </tr>
+</table>
+{% endif %}
+  
+{% endif %}
+<a href="#">Like</a>
+<a href="#">Tweet</a>
+<a href="#">Share</a>
 {% endblock %}
 

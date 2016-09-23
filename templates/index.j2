@@ -3,15 +3,15 @@
 <p>Some people think this election is a choice between the lesser of two
 evils. These people disagree.
 
-<h2>I'm voting for Hillary because</h2>
 
 {% block reason %}
+<h2>I'm voting for Hillary because...</h2>
 {% endblock %}
 
 <table border="1">
   {% for reason in reasons %}
-  {% if loop.index % 2 == 0 %} 
-  {% if loop.index != 0 %} </tr> {% endif %}
+  {% if loop.index % 2 == 1 %} 
+  {% if loop.index != 1 %} </tr> {% endif %}
   <tr> 
   {% endif %}
     <td>
@@ -21,6 +21,11 @@ evils. These people disagree.
           {{ reason.tagline }}
         </a>
       </h3>
+      {% if reason.video %}
+      <p>
+      {{ reason.video }}
+      </p>
+      {% endif %}
       <a href="#">Like</a>
       <a href="#">Tweet</a>
       <a href="#">Share</a>

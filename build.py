@@ -4,6 +4,9 @@ import os.path as op
 import os
 
 OUTPUT_DIR = 'dist/'
+LINK_LENGTH = len('bit.ly/123456')
+HASHTAG_LEN = len('#votecuz')
+MAX_LENGTH = 140 - LINK_LENGTH - HASHTAG_LEN - 2
 
 
 
@@ -25,6 +28,11 @@ def build(base_config):
 
     template = env.get_template('issue.j2')
     for reason in base_config['reasons']:
+        assert len(reason['tagline']) <= MAX_LENGTH, (
+            'length of %s must be less than %d' % (
+                reason['title'], MAX_LENGTH)
+            )
+                
         conf = dict(**base_config)
         conf['reason'] = reason
         write(template, conf, reason['tag'])

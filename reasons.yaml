@@ -1,10 +1,24 @@
 reasons:
+- tagline: I want to see a woman in the White House.
+  title: female-president
+- tagline: I trust Hillary Clinton to lead our country.
+  title: trust-hillary
+- tagline: She will work with Republicans.
+  title: bipartisan
+- tagline: She will get money out of politics by overturning Citizens United
+  title: citizens-united
+- tagline: She will appoint progressive Supreme Court nominees.
+  title: supreme-court
+- tagline: I don't care about her damn emails.
+  title: no-emails
+- tagline: She is trusted and respected by foreign leaders around the world.
+  title: foreign-policy
+- tagline: She will improve Obamacare.
+  title: obamacare
+- tagline: Obama supports her.
+  title: obama-support
 - tagline: She's fought for universal healthcare her whole life.
-  title: Universal Healthcare
+  title: universal-healthcare
 
-- tagline: She pledged to get money out of politics by overturning Citizens United.
-  title: Campaign Finance
-
-- tagline: She'll appoint a progressive supreme court
-  title: Supreme Court
+community_videos: false
 
