@@ -1,10 +1,10 @@
 serve:
-	cd dist && python3 -m http.server
+	cd docs && python3 -m http.server
 
 clean:
-	rm -rf dist/*
+	rm -rf docs/*
 
 build: clean
-	mkdir -p dist
+	mkdir -p docs
 	python3 build.py
 

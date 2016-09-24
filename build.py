@@ -3,7 +3,7 @@ import yaml
 import os.path as op
 import os
 
-OUTPUT_DIR = 'dist/'
+OUTPUT_DIR = 'docs/'
 LINK_LENGTH = len('bit.ly/123456')
 HASHTAG_LEN = len('#votecuz')
 MAX_LENGTH = 140 - LINK_LENGTH - HASHTAG_LEN - 2
