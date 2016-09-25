@@ -1,4 +1,7 @@
 {% extends 'index.j2' %}
+{% block title %}
+I'm voting for Clinton on Nov 8 because {{ reason.body }}
+{% endblock %}
 {% block reason %}
 
 <h2>I'm voting for Clinton on Nov 8 because {{ reason.body }}</h2>
