@@ -1,0 +1,7 @@
+.issue-board {
+  display:flex;
+  flex-wrap: wrap;
+}
+.issue-box {
+  flex:0 1 450px;
+}

@@ -1,13 +1,18 @@
 {% extends 'index.j2' %}
 {% block reason %}
 
-<h2>I'm voting for Hillary because<h2>
-<h3>{{ reason.tagline }}</h3>
+<h2>I'm voting for Clinton on Nov 8 because {{ reason.body }}</h2>
 
 {% if reason.video %}
-<p>
-{{ reason.video }}
-</p>
+<center>
+  <iframe width="710"
+          height="400"
+          src="https://www.youtube.com/embed/{{ reason.video }}"
+          frameborder="0"
+          allowfullscreen
+          >
+  </iframe>
+</center>
 {% if community_videos %}
 <h3>Community Videos</h3>
 <table border="1">
@@ -24,10 +29,8 @@
   </tr>
 </table>
 {% endif %}
-  
-{% endif %}
-<a href="#">Like</a>
-<a href="#">Tweet</a>
-<a href="#">Share</a>
-{% endblock %}
 
+{% endif %}
+
+{{ social_buttons(reason) }}
+{% endblock %}

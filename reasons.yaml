@@ -1,24 +1,25 @@
 reasons:
-- tagline: I want to see a woman in the White House.
+- body: I want to see a woman in the White House.
   title: female-president
-- tagline: I trust Hillary Clinton to lead our country.
+- body: I trust her to lead our country.
   title: trust-hillary
-- tagline: She will work with Republicans.
+- body: she will work with Republicans.
   title: bipartisan
-- tagline: She will get money out of politics by overturning Citizens United
+- body: she will get money out of politics by overturning Citizens United
   title: citizens-united
-- tagline: She will appoint progressive Supreme Court nominees.
+- body: she will appoint progressive Supreme Court nominees.
   title: supreme-court
-- tagline: I don't care about her damn emails.
+- body: I don't care about her damn emails.
   title: no-emails
-- tagline: She is trusted and respected by foreign leaders around the world.
+- body: she is trusted and respected by foreign leaders around the world.
   title: foreign-policy
-- tagline: She will improve Obamacare.
+- body: She will improve Obamacare.
   title: obamacare
-- tagline: Obama supports her.
+- body: Obama supports her.
   title: obama-support
-- tagline: She's fought for universal healthcare her whole life.
+  video: XwZImnifph8
+
+- body: she's fought for universal healthcare her whole life.
   title: universal-healthcare
 
 community_videos: false
-
