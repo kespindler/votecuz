@@ -1,24 +1,37 @@
 reasons:
 - body: I want to see a woman in the White House.
   title: female-president
+
 - body: I trust her to lead our country.
   title: trust-hillary
+
 - body: she will work with Republicans.
   title: bipartisan
+
 - body: she will get money out of politics and overturn Citizens United.
   title: citizens-united
+
 - body: she will appoint progressive Supreme Court nominees.
   title: supreme-court
+
 - body: I don't care about her damn emails.
-  title: no-emails
+  title: damn-emails
+  video: d6cL_mUjpAM
+
 - body: she is trusted and respected by foreign leaders around the world.
   title: foreign-policy
-  # - body: She will improve Obamacare.
-  # title: obamacare
-- body: Obama supports her.
+# - body: She will improve Obamacare.
+# title: obamacare
+#
+- body: Obama trusts and supports her.
   title: obama-support
   video: XwZImnifph8
-  # - body: she's fought for universal healthcare her whole life.
-  # title: universal-healthcare
+
+- body: "@SenSanders trusts and supports her."
+  title: sanders-support
+  video: XSn9zitS24g
+
+# - body: she's fought for universal healthcare her whole life.
+# title: universal-healthcare
 
 community_videos: false
