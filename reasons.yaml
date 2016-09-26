@@ -5,7 +5,7 @@ reasons:
   title: trust-hillary
 - body: she will work with Republicans.
   title: bipartisan
-- body: she will get money out of politics by overturning Citizens United
+- body: she will get money out of politics and overturn Citizens United.
   title: citizens-united
 - body: she will appoint progressive Supreme Court nominees.
   title: supreme-court
@@ -13,13 +13,12 @@ reasons:
   title: no-emails
 - body: she is trusted and respected by foreign leaders around the world.
   title: foreign-policy
-- body: She will improve Obamacare.
-  title: obamacare
+  # - body: She will improve Obamacare.
+  # title: obamacare
 - body: Obama supports her.
   title: obama-support
   video: XwZImnifph8
-
-- body: she's fought for universal healthcare her whole life.
-  title: universal-healthcare
+  # - body: she's fought for universal healthcare her whole life.
+  # title: universal-healthcare
 
 community_videos: false
