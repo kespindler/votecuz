@@ -1,6 +1,29 @@
+@font-face {
+  font-family:"Avenir Next";
+  src: url("/font/AvenirNext-Regular.ttf"); /* EOT file for IE */
+}
+@font-face {
+  font-family:"Avenir Next";
+  src: url("/font/AvenirNext-Bold.ttf"); /* EOT file for IE */
+  font-weight:bold;
+}
+
+@media (max-width: 480px) {
+  .issue-box {
+    flex-basis: 100%;
+  }
+}
 .hero {
   padding:0 20px;
 }
+.footer {
+  padding:1em 0;
+}
+
+h1 {
+  padding-bottom:15px;
+}
+
 .issue-board {
   display:flex;
   flex-wrap: wrap;
@@ -21,9 +44,11 @@ body {
   background-color: #5c93f1;
 }
 a {
-  text-decoration: none;
   color: inherit;
 }
 .issue-box > h3 {
   color:#f64250;
+}
+h3 > a {
+  text-decoration: none
 }

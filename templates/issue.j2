@@ -6,6 +6,9 @@ I'm voting for Clinton on Nov 8 because {{ reason.tagline }}
 
 <h1>I'm voting for Clinton on Nov 8 because {{ reason.tagline }}</h1>
 
+{% if reason.body %}
+<p>{{ reason.body }}
+{% endif %}
 {% if reason.video %}
 <center>
   <iframe width="710"

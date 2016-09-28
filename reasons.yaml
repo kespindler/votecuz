@@ -8,7 +8,7 @@ reasons:
 - tagline: she will work with Republicans.
   title: bipartisan
 
-- tagline: gas is half the price it was when Bush was president
+- tagline: gas is half the price it was when Bush was president.
   title: cheap-gas
 
 - tagline: trickle down doesn't work.
@@ -16,15 +16,45 @@ reasons:
 
 - tagline: we need healthcare.
   title: healthcare
+  body: >
+    Clinton created the CHIP program to cover health care for 8 million children
+    when she wasn't even in office. She'll continue to fight for healthcare as president.
 
-- tagline: we need clean energy jobs
+- tagline: we need clean energy jobs.
   title: clean-energy-jobs
+  body: >
+    Clinton will launch a $60 billion Clean Energy Challenge to invest in
+    clean energy jobs and American innovation.
 
-- tagline: we need to invest in education.
+- tagline: she will make attending public colleges debt-free.
   title: invest-education
+  body: >
+    Clinton will make community college tuition-free and in-state college debt-free.
+
+- tagline: she supports police training progams for de-escalation, community policing, and officer safety.
+  title: criminal-justice
+  body: >
+    Clinton will make investments to support state-of-the-art law enforcement training
+    programs at every level on issues like use of force, de-escalation,
+    community policing, and officer safety.
+
+- tagline: we need to support small business.
+  title: small-business
+  body: >
+    Clinton will create a new standard deduction for
+    small businesses—like the one available to individual filers.
+
+- tagline: everyone needs to pay their fair share of taxes.
+  title: fair-taxes
+  body: >
+    Clinton will close tax loopholes that let Wall Street money
+    managers pay lower rates than some middle-class families.
 
 - tagline: she will get money out of politics and overturn Citizens United.
   title: citizens-united
+  body: >
+    Clinton will propose a constitutional amendment to
+    overturn Citizens United within her first 30 days in office.
 
 - tagline: she will appoint progressive Supreme Court nominees.
   title: supreme-court
