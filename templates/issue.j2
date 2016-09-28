@@ -1,10 +1,10 @@
 {% extends 'index.j2' %}
 {% block title %}
-I'm voting for Clinton on Nov 8 because {{ reason.body }}
+I'm voting for Clinton on Nov 8 because {{ reason.tagline }}
 {% endblock %}
 {% block reason %}
 
-<h2>I'm voting for Clinton on Nov 8 because {{ reason.body }}</h2>
+<h1>I'm voting for Clinton on Nov 8 because {{ reason.tagline }}</h1>
 
 {% if reason.video %}
 <center>

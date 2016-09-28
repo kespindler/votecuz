@@ -1,0 +1,5 @@
+processes:
+- command: make build && make serve
+  watch:
+  - templates
+  - css

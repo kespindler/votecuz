@@ -7,5 +7,5 @@ clean:
 build: clean
 	mkdir -p docs
 	python3 build.py
-	cp -r css docs/
+	cp -r css font docs/
 	echo votecuz.com > docs/CNAME

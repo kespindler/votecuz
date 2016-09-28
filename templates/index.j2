@@ -1,21 +1,27 @@
 {% extends "base.j2" %}
+{% block title %}
+VoteCuz: I'm voting for Clinton on Nov 8 because it matters.
+{% endblock %}
 {% block body %}
 
-<h1>Your vote matters</h1>
-
-<p>Some people think this election is a choice between the lesser of two
-evils. These people disagree.
-
+<div class="hero issue-box">
+<div>
+  <h2>Clinton will be a f**king great president.</h2>
+</div>
+<div>
+  Some people think this election is a choice between the lesser of two evils. We disagree.
+</div>
 {% block reason %}
-<h2>I'm voting for Hillary because...</h2>
+<h1>I'm voting for Clinton on Nov 8 because...</h1>
 {% endblock %}
+</div>
 
 <div class="issue-board">
   {% for reason in reasons %}
   <div class="issue-box">
     <h3>
       <a href="{{ reason.url }}">
-        {{ reason.body_upper }}
+        {{ reason.tagline_upper }}
       </a>
     </h3>
     {% if reason.video %}
@@ -34,5 +40,5 @@ evils. These people disagree.
     {{ social_buttons(reason) }}
   </div>
   {% endfor %}
-</table>
+</div>
 {% endblock %}

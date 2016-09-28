@@ -5,8 +5,8 @@ import os
 
 OUTPUT_DIR = 'docs/'
 LINK_LENGTH = len('bit.ly/123456')
-# DOMAIN = "http://localhost:8000/"
-DOMAIN = "http://votecuz.com/"
+DOMAIN = "http://localhost:8000/"
+# DOMAIN = "http://votecuz.com/"
 HASHTAG_LEN = len('#votecuz')
 MAX_LENGTH = 140 - LINK_LENGTH - HASHTAG_LEN - 2
 
@@ -29,7 +29,7 @@ def build(base_config):
 
     template = env.get_template('issue.j2')
     for reason in base_config['reasons']:
-        assert len(reason['body']) <= MAX_LENGTH, (
+        assert len(reason['tagline']) <= MAX_LENGTH, (
             'length of %s must be less than %d' % (
                 reason['title'], MAX_LENGTH)
             )
@@ -42,8 +42,8 @@ def build(base_config):
 def update_config(base_config):
     for reason in base_config['reasons']:
         reason['tag'] = reason['title'].lower().replace(' ', '-')
-        t = reason['body']
-        reason['body_upper'] = t[0].upper() + t[1:]
+        t = reason['tagline']
+        reason['tagline_upper'] = t[0].upper() + t[1:]
         reason['url'] = DOMAIN + reason['title']
     return base_config
 
