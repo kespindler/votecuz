@@ -8,9 +8,9 @@
   font-weight:bold;
 }
 
-@media (max-width: 480px) {
+@media (min-width: 320px) {
   .issue-box {
-    flex-basis: 100%;
+    background: blue;
   }
 }
 .hero {
@@ -19,36 +19,34 @@
 .footer {
   padding:1em 0;
 }
-
-h1 {
-  padding-bottom:15px;
-}
-
 .issue-board {
   display:flex;
   flex-wrap: wrap;
 }
 .issue-box {
+  background: #fff;
   flex:0 1 450px;
-  background-color: #fff;
   box-shadow: 0 10px 30px -8px rgba(0,0,0,.90);
   margin:20px;
   padding:0 12px;
   border-radius: 2px;
 }
-h2, h3 {
-  display: inline-block;
-}
 body {
   font-family:"Avenir Next","Helvetica";
   background-color: #5c93f1;
+}
+h1 {
+  padding-bottom:15px;
+}
+h3 > a {
+  text-decoration: none
+}
+h3 > a:hover {
+  text-decoration: underline;
 }
 a {
   color: inherit;
 }
 .issue-box > h3 {
   color:#f64250;
-}
-h3 > a {
-  text-decoration: none
 }

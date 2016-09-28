@@ -5,12 +5,12 @@
 
 $enable-flex: true;
 
-$font-family-sans-serif: Arial, SansSerif;
+$font-family-sans-serif: "Avenir Next","Helvetica Neue","Helvetica",Arial,SansSerif;
 $font-family-serif: "Times New Roman", Times, serif;
 $font-family-monospace: Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 $font-family-base: $font-family-sans-serif;
 $font-size-base: .9rem;
-
+$body-bg: #5c93f1;
 $btn-block-spacing-y: 0;
 $btn-padding-y-sm:0.2rem;
 $btn-padding-x-sm:0.2rem;
@@ -26,305 +26,31 @@ $link-color: #000;
   src: url("/font/AvenirNext-Bold.ttf"); /* EOT file for IE */
   font-weight:bold;
 }
-
-.jumbotron {
-  min-height: 100vh;
-  flex-direction: column;
-  justify-content: center;
-  display: flex;
-  align-items: center;
-  font-family:'Avenir Next';
-  line-height:2;
-  font-size: 130%;
+.issue-board {
+  display:flex;
+  flex-wrap: wrap;
 }
-
-input {
-  font-family: Arial, SansSerif;
-  font-size: inherit;
-  border: none;
-  width: 100%;
-  background: none;
+.issue-box {
+  flex:0 1 450px;
+  background-color: #fff;
+  box-shadow: 0 10px 30px -8px rgba(0,0,0,.90);
+  margin:20px;
+  padding:0 12px;
+  border-radius: 2px;
 }
-
-textarea {
-  resize: none;
-  outline: none;
-  border: none;
-}
-
-div:focus, input:focus {
-  outline: none;
-}
-
-input[type=number]::-webkit-inner-spin-button,
-input[type=number]::-webkit-outer-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
-}
-
-/* generics */
-.app-pane {
-  display: flex;
-  flex-direction: column;
-}
-
-.flex4 {
-  flex: 4;
-}
-
-.focus {
-  background: #555;
-}
-
-/* checkbox */
-.checkmark {
-  display: inline-block;
-  cursor: default;
-  width: 20px;
-  height: 20px;
-  background: #fff;
-  border: solid 2px black;
-  border-radius: 50%;
-  -ms-transform: rotate(45deg); /* IE 9 */
-  -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
-  transform: rotate(45deg);
-  margin: 5px;
-}
-
-.checked {
-  background: #7caf63;
-  border-color: #36763d;
-}
-
-.checked:before {
-  content: "";
-  position: absolute;
-  width: 3px;
-  height: 9px;
-  background-color: #ccc;
-  left: 8px;
-  top: 3px;
-}
-
-.checked:after {
-  content: "";
-  position: absolute;
-  width: 6px;
-  height: 3px;
-  background-color: #ccc;
-  left: 5px;
-  top: 9px;
-}
-
-.completed {
-  color: #888;
-}
-
-/* blocks */
-.pane-container {
-  display: flex;
-  flex: 1;
-}
-
-.todo-items {
-  overflow-y: auto;
-  flex: 1;
-}
-
-.todo-item {
-  border-bottom: solid 1px #ddd;
-  display: flex;
-  align-items: center;
-  padding-right: 4px;
-}
-
-.selected {
-  background: #fffdca;
-}
-
-.toolbar {
-  padding: 0 4px;
-  align-items: center;
-  display: flex;
-  border-bottom: solid 1px #eee;
-  height:30px;
-}
-
-.marker {
-  display: inline-block;
-  width: 4px;
-  height: 30px;
-}
-
-.form-input {
-  background: #fff;
-  border-bottom: solid 1px #ccc;
-}
-
-.new-todo-input {
-  width: 95%;
-}
-
-.input-priority {
-  background: #fff;
-  width: 24px;
-}
-
-.input-due {
-  background: #fff;
-  width: 36px;
-}
-
-.todo-span {
-  overflow: hidden;
-  flex: 1;
-  width: 0;
-}
-
-.table-row {
-  display: flex;
-  flex-direction: row;
-  padding: 3px 0;
-}
-
-.new-todo-padding {
-  padding-left: 6px;
-  padding-right: 12px;
-}
-
-.new-tag-padding {
-  padding: 0 4px;
-}
-
-#help-window {
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  overflow: auto;
-  visibility: hidden;
-  width: 50%;
-  height: 50%;
-  background: #999;
-  border-radius: 8px;
-  margin: auto;
-}
-
-.keyboard-shortcut {
-  display: block;
-  padding: 10px;
-}
-
-.project-item {
-  padding: 0 6px;
-  white-space: nowrap;
-}
-
-.button-icon {
-  min-width: 12px;
-  padding: 0 2px;
-  line-height: 1.2;
-  font-size: 12px !important;
-  font-weight: normal;
-}
-
-.label-active {
-  font-weight: bold;
-}
-
-#task-title-input {
-  font-size: 18px;
-  font-weight: bold;
-  height: 30px;
-  width: 100%;
-}
-.dropdown-hover {
-  display: none;
-}
-.dropdown {
-  position: relative;
-}
-.dropdown-content {
-  opacity:0;
-  visibility:hidden;
-  transition: visibility 0.5s;
-  position: absolute;
-  background-color: #f9f9f9;
-  padding:2px;
-  width:125px;
-  margin-left:-110px;
-  z-index:1024;
-}
-.dropdown:focus .dropdown-content {
-  opacity:1;
-  visibility: visible;
-}
-div:hover > .dropdown-hover {
+h2, h3 {
   display: inline-block;
 }
-
-.text-center {
-  font-size: 15px;
-  margin: 0 auto;
-  max-width: 330px;
+body {
+  font-family:"Avenir Next","Helvetica";
+  background-color: #5c93f1;
 }
-
-.priority1 {
-  background: #EC5D57;
+a {
+  color: inherit;
 }
-
-.priority2 {
-  background: #F39019;
+.issue-box > h3 {
+  color:#f64250;
 }
-
-.priority3 {
-  background: #F5D328;
-}
-
-.priority4 {
-  background: #51A7F9;
-}
-
-.flex {
-  flex: 1;
-}
-
-/* sortable.css */
-/* pre-built style */
-.ui-sortable {
-  display: block;
-  position: relative;
-  overflow: visible;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  user-select: none;
-}
-
-.ui-sortable:before,
-.ui-sortable:after {
-  content: " ";
-  display: table;
-}
-
-.ui-sortable:after {
-  clear: both;
-}
-
-.ui-sortable .ui-sortable-item {
-  cursor: move;
-}
-
-.ui-sortable .ui-sortable-item.ui-sortable-dragging {
-  position: absolute;
-  z-index: 1688;
-}
-
-.ui-sortable .ui-sortable-placeholder {
-  display: none;
-}
-
-.ui-sortable .ui-sortable-placeholder.visible {
-  display: block;
-  z-index: -1;
+h3 > a {
+  text-decoration: none
 }
