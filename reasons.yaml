@@ -20,23 +20,25 @@ reasons:
     Clinton created the CHIP program to cover health care for 8 million children
     when she wasn't even in office. She'll continue to fight for healthcare as president.
 
-- tagline: we need clean energy jobs.
-  title: clean-energy-jobs
+- tagline: Clinton supports American jobs in clean energy.
+  title: american-jobs
+  video: "-ChuljCVGXs"
   body: >
     Clinton will launch a $60 billion Clean Energy Challenge to invest in
     clean energy jobs and American innovation.
 
 - tagline: she will make attending public colleges debt-free.
   title: invest-education
+  video: J2w-aZL3xqg
   body: >
     Clinton will make community college tuition-free and in-state college debt-free.
 
 - tagline: she supports police training progams for de-escalation, community policing, and officer safety.
   title: criminal-justice
   body: >
-    Clinton will make investments to support state-of-the-art law enforcement training
-    programs at every level on issues like use of force, de-escalation,
-    community policing, and officer safety.
+    Clinton will invest $1B for state-of-the-art law enforcement training
+    programs on issues like use of force, de-escalation, community policing,
+    and officer safety.
 
 - tagline: we need to support small business.
   title: small-business
@@ -52,6 +54,7 @@ reasons:
 
 - tagline: she will get money out of politics and overturn Citizens United.
   title: citizens-united
+  video: eqZDtZYHBjs
   body: >
     Clinton will propose a constitutional amendment to
     overturn Citizens United within her first 30 days in office.
@@ -63,8 +66,8 @@ reasons:
   title: damn-emails
   video: d6cL_mUjpAM
 
-- tagline: she is trusted and respected by foreign leaders around the world.
-  title: foreign-policy
+# - tagline: she is trusted and respected by foreign leaders around the world.
+#   title: foreign-policy
 # - tagline: She will improve Obamacare.
 # title: obamacare
 #
