@@ -7,7 +7,7 @@ I'm voting for Clinton on Nov 8 because {{ reason.tagline }}
 <h1>I'm voting for Clinton on Nov 8 because {{ reason.tagline }}</h1>
 
 {% if reason.body %}
-<p>{{ reason.body }}
+<h2>{{ reason.body }}</h2>
 {% endif %}
 {% if reason.video %}
 <center>
@@ -39,4 +39,5 @@ I'm voting for Clinton on Nov 8 because {{ reason.tagline }}
 {% endif %}
 
 {{ social_buttons(reason) }}
+{{ like_button(reason) }}
 {% endblock %}
