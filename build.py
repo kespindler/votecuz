@@ -40,6 +40,7 @@ def build(base_config):
 
 
 def update_config(base_config):
+    base_config['base_url'] = DOMAIN
     for reason in base_config['reasons']:
         reason['tag'] = reason['title'].lower().replace(' ', '-')
         t = reason['tagline']
