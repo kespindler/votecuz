@@ -8,13 +8,14 @@ reasons:
 - tagline: she will work with Republicans.
   title: bipartisan
 
-- tagline: gas is half the price it was when Bush was president.
-  title: cheap-gas
-
 - tagline: trickle down doesn't work.
   title: no-trickle-down
 
-- tagline: we need healthcare.
+- tagline: "@POTUS Obama trusts and supports her."
+  title: obama-support
+  video: XwZImnifph8
+
+- tagline: she will continue to improve our healthcare system.
   title: healthcare
   body: >
     Clinton created the CHIP program to cover health care for 8 million children
@@ -52,6 +53,9 @@ reasons:
     Clinton will close tax loopholes that let Wall Street money
     managers pay lower rates than some middle-class families.
 
+- tagline: gas is half the price it was when Bush was president.
+  title: cheap-gas
+
 - tagline: she will get money out of politics and overturn Citizens United.
   title: citizens-united
   video: eqZDtZYHBjs
@@ -71,10 +75,6 @@ reasons:
 # - tagline: She will improve Obamacare.
 # title: obamacare
 #
-- tagline: "@POTUS Obama trusts and supports her."
-  title: obama-support
-  video: XwZImnifph8
-
 - tagline: "@SenSanders trusts and supports her."
   title: sanders-support
   video: XSn9zitS24g
