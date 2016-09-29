@@ -7,8 +7,6 @@
   src: url("/font/AvenirNext-Bold.ttf"); /* EOT file for IE */
   font-weight:bold;
 }
-
-
 .footer {
   padding:1em 0;
 }
@@ -22,7 +20,7 @@
 .issue-box {
   overflow: auto;
   background: #fff;
-    flex: 0 1 100%;
+  flex: 0 1 100%;
   box-shadow: 0 10px 30px -8px rgba(0,0,0,.90);
   margin:20px;
   padding:0 12px 12px;
@@ -30,7 +28,12 @@
 }
 @media (min-width: 800px) {
   .issue-box {
-  flex:0 1 450px;
+  flex:0 1 calc(50% - 40px);
+  }
+}
+@media (min-width: 1200px) {
+  .issue-box {
+  flex:0 1 calc(33% - 35px);
   }
 }
 body {
@@ -39,6 +42,9 @@ body {
 }
 h1 {
   padding-bottom:15px;
+}
+div {
+  box-sizing: border-box;
 }
 h3 > a:hover {
   text-decoration: underline;
