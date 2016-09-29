@@ -3,7 +3,8 @@ reasons:
 #   title: female-president
 #
 - tagline: I trust her to lead our country.
-  title: trust-hillary
+  title: trust-clinton
+  video: 821JrNfyXMg
 
 - tagline: she will work with Republicans.
   title: bipartisan
@@ -17,6 +18,7 @@ reasons:
 
 - tagline: she will continue to improve our healthcare system.
   title: healthcare
+  video:
   body: >
     Clinton created the CHIP program to cover health care for 8 million children
     when she wasn't even in office. She'll continue to fight for healthcare as president.
@@ -34,8 +36,9 @@ reasons:
   body: >
     Clinton will make community college tuition-free and in-state college debt-free.
 
-- tagline: she supports police training progams for de-escalation, community policing, and officer safety.
-  title: criminal-justice
+- tagline: she'll put $1B towards police re-training progams for de-escalation, community policing, and officer safety.
+  title: police-training
+  video: xEzzx402yys
   body: >
     Clinton will invest $1B for state-of-the-art law enforcement training
     programs on issues like use of force, de-escalation, community policing,
