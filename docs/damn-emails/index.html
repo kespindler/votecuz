@@ -6,6 +6,7 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>
 I'm voting for Clinton on Nov 8 because I don't care about her damn emails.
 </title>
@@ -459,7 +460,11 @@ function fetchSocial(url, target) {
   	dataType: 'jsonp',
   	type: 'GET',
   }, function (code, body) {
-    var data = JSON.parse(body)
+    try {
+      var data = JSON.parse(body)
+    } catch (e) {
+      return
+    }
     if (data && data.share && data.share.share_count) {
       target.innerHTML = "&nbsp;" + numberShorthand(data.share.share_count)
     }

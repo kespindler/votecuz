@@ -8,11 +8,7 @@
   font-weight:bold;
 }
 
-@media (min-width: 320px) {
-  .issue-box {
-    background: blue;
-  }
-}
+
 .footer {
   padding:1em 0;
 }
@@ -26,12 +22,16 @@
 .issue-box {
   overflow: auto;
   background: #fff;
-  flex:0 1 450px;
+    flex: 0 1 100%;
   box-shadow: 0 10px 30px -8px rgba(0,0,0,.90);
   margin:20px;
   padding:0 12px 12px;
-
   border-radius: 2px;
+}
+@media (min-width: 800px) {
+  .issue-box {
+  flex:0 1 450px;
+  }
 }
 body {
   font-family:"Avenir Next","Helvetica";
