@@ -6,29 +6,20 @@ reasons:
   title: trust-clinton
   video: 821JrNfyXMg
 
-- tagline: she will work with Republicans.
-  title: bipartisan
-
-- tagline: trickle down doesn't work.
-  title: no-trickle-down
-
-- tagline: "@POTUS Obama trusts and supports her."
-  title: obama-support
-  video: XwZImnifph8
-
-- tagline: she will continue to improve our healthcare system.
-  title: healthcare
-  video:
-  body: >
-    Clinton created the CHIP program to cover health care for 8 million children
-    when she wasn't even in office. She'll continue to fight for healthcare as president.
-
-- tagline: Clinton supports American jobs in clean energy.
+- tagline: Clinton will create American jobs in clean energy.
   title: american-jobs
   video: "-ChuljCVGXs"
   body: >
     Clinton will launch a $60 billion Clean Energy Challenge to invest in
     clean energy jobs and American innovation.
+
+- tagline: she will continue to improve our healthcare system.
+  title: healthcare
+  video: jXE1Ik3oSMc
+  body: >
+    Clinton created the CHIP program to cover health care for 8 million children
+    when she wasn't even in office. She'll improve Obamacare by lowering premiums
+    and the cost of life-saving drugs.
 
 - tagline: she will make attending public colleges debt-free.
   title: invest-education
@@ -44,6 +35,23 @@ reasons:
     programs on issues like use of force, de-escalation, community policing,
     and officer safety.
 
+- tagline: she has a track record of gun safety.
+  title: gun-safety
+  video:
+  body: >
+    Clinton co-sponsored legislation to close the gun show loophole and to renew the assault weapons ban.
+    She will continue to fight for gun safety as president.
+
+- tagline: she will work with Republicans.
+  title: bipartisan
+
+- tagline: trickle down doesn't work.
+  title: no-trickle-down
+
+- tagline: "@POTUS Obama trusts and supports her."
+  title: obama-support
+  video: XwZImnifph8
+
 - tagline: she supports small businesses.
   title: small-business
   body: >
@@ -55,9 +63,6 @@ reasons:
   body: >
     Clinton will close tax loopholes that let Wall Street money
     managers pay lower rates than some middle-class families.
-
-- tagline: gas is half the price it was when Bush was president.
-  title: cheap-gas
 
 - tagline: she will get money out of politics and overturn Citizens United.
   title: citizens-united
@@ -73,16 +78,12 @@ reasons:
   title: damn-emails
   video: d6cL_mUjpAM
 
-# - tagline: she is trusted and respected by foreign leaders around the world.
-#   title: foreign-policy
-# - tagline: She will improve Obamacare.
-# title: obamacare
-#
+- tagline: she has the character to own her mistakes and move on.
+  title: clinton-character
+  video: TTOZmDd51kQ
+
 - tagline: "@SenSanders trusts and supports her."
   title: sanders-support
   video: XSn9zitS24g
-
-# - tagline: she's fought for universal healthcare her whole life.
-# title: universal-healthcare
 
 community_videos: false
