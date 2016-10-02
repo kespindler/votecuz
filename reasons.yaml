@@ -1,7 +1,5 @@
 reasons:
-# - tagline: I want to see a woman in the White House.
-#   title: female-president
-#
+
 - tagline: I trust her to lead our country.
   title: trust-clinton
   video: 821JrNfyXMg
@@ -13,7 +11,7 @@ reasons:
     Clinton will launch a $60 billion Clean Energy Challenge to invest in
     clean energy jobs and American innovation.
 
-- tagline: she will continue to improve our healthcare system.
+- tagline: Clinton will lower health care premiums and cost of life-saving drugs.
   title: healthcare
   video: jXE1Ik3oSMc
   body: >
@@ -21,13 +19,13 @@ reasons:
     when she wasn't even in office. She'll improve Obamacare by lowering premiums
     and the cost of life-saving drugs.
 
-- tagline: she will make attending public colleges debt-free.
+- tagline: she will make public colleges debt-free.
   title: invest-education
   video: J2w-aZL3xqg
   body: >
     Clinton will make community college tuition-free and in-state college debt-free.
 
-- tagline: she'll put $1B towards police re-training and safety progams.
+- tagline: she will spend $1B on police re-training and safety progams.
   title: police-training
   video: xEzzx402yys
   body: >
@@ -35,24 +33,34 @@ reasons:
     programs on issues like use of force, de-escalation, community policing,
     and officer safety.
 
-- tagline: she has a track record of gun safety.
-  title: gun-safety
-  video:
+- tagline: Clinton will create a National Service Reserve for 5M Americans to assist in natural disasters.
+  title: service-reserve
+  video: bUd1Iwfj5xs
   body: >
-    Clinton co-sponsored legislation to close the gun show loophole and to renew the assault weapons ban.
+    Clinton will create a National Service Reserve program to recruit 5 million Americans
+    to receive training and assist in natural disasters like Baton Rouge,
+    Flint Michigan, and others.
+
+- tagline: Clinton supports common sense gun laws to prevent school shootings and violence.
+  title: gun-safety
+  body: >
+    Clinton closed the gun show loophole and renewed the assault weapons ban.
     She will continue to fight for gun safety as president.
 
-- tagline: she will work with Republicans.
+- tagline: Clinton has a track record working with Republicans, not causing more Washington gridlock.
   title: bipartisan
 
-- tagline: trickle down doesn't work.
+- tagline: Clinton supports fair economic policies and knows trickle down economics doesn't work.
   title: no-trickle-down
+  body: >
+    Clinton understands that trickle-down Reaganomics from the 80s destroyed the American middle class.
+    She'll fight for everyone to pay their fair share of taxes.
 
 - tagline: "@POTUS Obama trusts and supports her."
   title: obama-support
   video: XwZImnifph8
 
-- tagline: she supports small businesses.
+- tagline: Clinton supports small businesses, not tax breaks for the 1%.
   title: small-business
   body: >
     Clinton will create a new standard deduction for
@@ -73,10 +81,17 @@ reasons:
 
 - tagline: she will appoint progressive Supreme Court nominees.
   title: supreme-court
+  body: >
+    From Brown v. Board of Education to Citizens United, the
+    Supreme Court has an immense impact on our lives. Clinton will nominate fair
+    judges.
 
 - tagline: I don't care about her damn emails.
   title: damn-emails
   video: d6cL_mUjpAM
+  body: >
+    Clinton has released her emails and been cleared of all wrong-doing.
+    We have more important issues facing our country.
 
 - tagline: she has the character to own her mistakes and move on.
   title: clinton-character
