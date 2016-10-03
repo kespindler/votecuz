@@ -66,11 +66,11 @@ reasons:
     Clinton will create a new standard deduction for
     small businesses—like the one available to individual filers.
 
-- tagline: everyone needs to pay their fair share of taxes.
-  title: fair-taxes
-  body: >
-    Clinton will close tax loopholes that let Wall Street money
-    managers pay lower rates than some middle-class families.
+# - tagline: everyone needs to pay their fair share of taxes.
+#   title: fair-taxes
+#   body: >
+#     Clinton will close tax loopholes that let Wall Street money
+#     managers pay lower rates than some middle-class families.
 
 - tagline: she will get money out of politics and overturn Citizens United.
   title: citizens-united
@@ -85,7 +85,7 @@ reasons:
     From Brown v. Board of Education to Citizens United, the
     Supreme Court has an immense impact on our lives. Clinton will nominate fair
     judges.
-# 
+    #
 # - tagline: I don't care about her damn emails.
 #   title: damn-emails
 #   video: d6cL_mUjpAM
