@@ -11,4 +11,9 @@ build: clean
 	mkdir -p docs
 	python3 build.py
 	cp -r css font docs/
+
+publish: clean
+	mkdir -p docs
+	CONFIG=production python3 build.py
+	cp -r css font docs/
 	echo votecuz.com > docs/CNAME

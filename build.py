@@ -5,8 +5,10 @@ import os
 
 OUTPUT_DIR = 'docs/'
 LINK_LENGTH = len('bit.ly/123456')
-# DOMAIN = "http://localhost:8000/"
-DOMAIN = "http://votecuz.com/"
+if os.environ.get('CONFIG') == 'production':
+    DOMAIN = "http://votecuz.com/"
+else:
+    DOMAIN = "http://localhost:8000/"
 HASHTAG_LEN = len('#votecuz')
 MAX_LENGTH = 140 - LINK_LENGTH - HASHTAG_LEN - 2
 
