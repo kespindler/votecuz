@@ -44,6 +44,9 @@ body {
 h1 {
   padding-bottom:15px;
 }
+h2 {
+  font-weight: normal;
+}
 div {
   box-sizing: border-box;
 }
