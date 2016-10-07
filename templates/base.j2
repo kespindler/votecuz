@@ -1,5 +1,5 @@
 {% macro social_buttons(reason) %}
-{% set tweet = ("I'm voting for Hillary because " + reason.tagline).replace(' ', '+') %}
+{% set tweet = ("I'm voting for Clinton because " + reason.tagline).replace(' ', '+') %}
 <div class="social">
 <a class="btn btn-twitter"
    href="http://twitter.com/intent/tweet?text={{ tweet }}&hashtags=votecuz&url={{ reason.url }}"><i class="fa fa-twitter fa-lg"></i> Tweet</a>
