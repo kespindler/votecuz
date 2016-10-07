@@ -1,6 +1,6 @@
 {% extends "base.j2" %}
 {% block title %}
-VoteCuz: I'm voting for Clinton on Nov 8 because it matters.
+VoteCuz: I'm voting for Clinton because it matters.
 {% endblock %}
 {% block body %}
 
@@ -9,7 +9,7 @@ VoteCuz: I'm voting for Clinton on Nov 8 because it matters.
   Some people think this election is a choice between the lesser of two evils. We disagree.
 </h2>
 {% block reason %}
-<h1>I'm voting for Hillary because...</h1>
+<h1>I'm voting for Clinton because...</h1>
 {% endblock %}
 </div>
 
@@ -24,6 +24,7 @@ VoteCuz: I'm voting for Clinton on Nov 8 because it matters.
     {% if reason.video %}
     <p>
     <center>
+      <div class="video-container">
       <iframe width="300"
               height="168"
               src="https://www.youtube.com/embed/{{ reason.video }}"
@@ -31,6 +32,7 @@ VoteCuz: I'm voting for Clinton on Nov 8 because it matters.
               allowfullscreen
               >
       </iframe>
+      </div>
     </center>
     </p>
     {% endif %}

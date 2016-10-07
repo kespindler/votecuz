@@ -1,17 +1,19 @@
 {% extends 'index.j2' %}
 {% block title %}
-I'm voting for Clinton on Nov 8 because {{ reason.tagline }}
+I'm voting for Clinton because {{ reason.tagline }}
 {% endblock %}
 {% block reason %}
 
-<h1>I'm voting for Clinton on Nov 8 because {{ reason.tagline }}</h1>
+<h1>I'm voting for Clinton because {{ reason.tagline }}</h1>
 
 {% if reason.body %}
 <h2>{{ reason.body }}</h2>
 {% endif %}
 {% if reason.video %}
 <center>
-  <iframe id="hi"
+  <div style="max-width:710px;">
+    <div class="video-container">
+  <iframe
           width="710"
           height="400"
           src="https://www.youtube.com/embed/{{ reason.video }}"
@@ -19,6 +21,8 @@ I'm voting for Clinton on Nov 8 because {{ reason.tagline }}
           allowfullscreen
           >
   </iframe>
+</div>
+  </div>
 </center>
 {% if community_videos %}
 <h3>Community Videos</h3>
