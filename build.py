@@ -2,6 +2,7 @@ from jinja2 import Environment, FileSystemLoader
 import yaml
 import os.path as op
 import os
+from copy import deepcopy
 
 OUTPUT_DIR = 'docs/'
 LINK_LENGTH = len('bit.ly/123456')
@@ -36,8 +37,10 @@ def build(base_config):
                 reason['title'], MAX_LENGTH)
             )
 
-        conf = dict(**base_config)
+        conf = deepcopy(base_config)
         conf['reason'] = reason
+        conf['reasons'] = filter(lambda x: x['title'] != reason['title'],
+                                 conf['reasons'])
         write(template, conf, reason['tag'])
 
 

@@ -2,10 +2,11 @@
 {% block title %}
 I'm voting for Clinton because {{ reason.tagline }}
 {% endblock %}
+{% block separator %}
+{% endblock %}
+
 {% block reason %}
-
 <h1>I'm voting for Clinton because {{ reason.tagline }}</h1>
-
 {% if reason.body %}
 <h2>{{ reason.body }}</h2>
 {% endif %}

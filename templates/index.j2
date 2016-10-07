@@ -4,7 +4,7 @@ VoteCuz: I'm voting for Clinton because it matters.
 {% endblock %}
 {% block body %}
 
-<div class="hero">
+<div class="issue-box">
 <h2>
   Some people think this election is a choice between the lesser of two evils. We disagree.
 </h2>
@@ -12,6 +12,8 @@ VoteCuz: I'm voting for Clinton because it matters.
 <h1>I'm voting for Clinton because...</h1>
 {% endblock %}
 </div>
+{% block separator %}
+{% endblock %}
 
 <div class="issue-board">
   {% for reason in reasons %}
